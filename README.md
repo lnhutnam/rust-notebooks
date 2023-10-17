@@ -37,3 +37,24 @@ Then
 ```bash
 rustup default stable
 ```
+
+```bash
+rustup component add rust-src
+```
+
+## Setup jupyter kernel for Rust
+
+```bash
+cargo install evcxr_jupyter
+```
+
+```bash
+evcxr_jupyter --install
+```
+
+# Start
+
+```bash
+jupyter notebook
+```
+
